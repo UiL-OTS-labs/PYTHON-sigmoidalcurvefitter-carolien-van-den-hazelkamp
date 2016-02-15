@@ -2,9 +2,9 @@
 Provides a least-square curve fitting implementation coded in python for a sigmoidal curve that fits the sigmoidal curve equation:
 
 `d(time) = lambda*(1-math.exp(-beta*(time-delta)))`
-Where if time <= delta 
-* En dan is lambda de asymptote, delta de intercept met de x-as (waar accuracy van kans afwijkt) en beta de steilheid van de curve. *
 If time > delta, d(time) is 0. 
+* En dan is lambda de asymptote, delta de intercept met de x-as (waar accuracy van kans afwijkt) en beta de steilheid van de curve. *
+
 
 
 # Dependencies
